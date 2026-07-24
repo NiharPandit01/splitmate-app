@@ -1,34 +1,168 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SplitMate
 
-## Getting Started
+SplitMate is a full-stack expense management application that helps users manage shared expenses within groups. It provides secure authentication, group management, member management, expense tracking, and balance calculation through a clean and modular architecture.
 
-First, run the development server:
+## Features
+
+### Authentication
+
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+- User Profile
+
+### Group Management
+
+- Create Groups
+- View Groups
+- View Group Details
+- Rename Groups
+
+### Member Management
+
+- Add Members
+- View Members
+- Remove Members (Admin Only)
+
+### Expense Management
+
+- Add Expenses
+- View Expense History
+- Automatic Expense Splitting
+
+### Balance Tracking
+
+- Calculate Group Balances
+- View Who Owes Whom
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+
+### Backend
+
+- Node.js
+- Next.js API Routes
+
+### Database
+
+- MongoDB
+- Mongoose
+
+### Authentication
+
+- JWT
+- bcryptjs
+
+## Project Structure
+
+```text
+SplitMate
+│
+├── app
+│   ├── api
+│   ├── dashboard
+│   ├── groups
+│   ├── login
+│   └── register
+│
+├── components
+│   ├── Navbar.tsx
+│   ├── PrimaryButton.tsx
+│   ├── SummaryCard.tsx
+│   ├── ExpenseCard.tsx
+│   ├── BalanceCard.tsx
+│   ├── MemberCard.tsx
+│   └── GroupNavigation.tsx
+│
+├── lib
+│
+├── models
+│
+├── middleware.ts
+│
+└── package.json
+```
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/NiharPandit01/splitmate-app.git
+```
+
+Navigate into the project
+
+```bash
+cd splitmate-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Modules
 
-## Learn More
+- Authentication
+- Dashboard
+- Group Management
+- Member Management
+- Expense Management
+- Balance Tracking
 
-To learn more about Next.js, take a look at the following resources:
+## Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Group Settings
+- Leave Group
+- Delete Group
+- Settle Up Feature
+- Real-Time Chat
+- Notifications
+- Dark Mode
+- Responsive UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Learning Outcomes
 
-## Deploy on Vercel
+- Next.js App Router
+- React Components
+- TypeScript
+- REST APIs
+- MongoDB
+- Mongoose
+- JWT Authentication
+- CRUD Operations
+- Dynamic Routing
+- User Authorization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Nihar Pandit**
+
+GitHub: https://github.com/NiharPandit01
