@@ -17,6 +17,7 @@
     "bcryptjs": "^3.0.3",
     "eslint": "9.39.5",
     "eslint-config-next": "16.2.10",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.4",
     "next": "16.2.10",
     "postcss": "8.5.19",
@@ -26,6 +27,7 @@
     "typescript": "6.0.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.3"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/jsonwebtoken": "^9.0.10"
   }
 }
