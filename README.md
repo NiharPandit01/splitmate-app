@@ -165,4 +165,39 @@ http://localhost:3000
 
 **Nihar Pandit**
 
+## Screenshots
+
+### Welcome Page
+![Welcome Page](screenshots/welcomepage.png)
+
+### Register
+![Register](screenshots/register.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### Create Group
+![Create Group](screenshots/creategroup.png)
+
+### Display Group
+![Display Group](screenshots/displaygroup.png)
+
+### Members
+![Members](screenshots/members.png)
+
+### Member Page
+![Member Page](screenshots/memberpage.png)
+
+### Add Expense
+![Add Expense](screenshots/addexpense.png)
+
+### Expense Splitting
+![Expense Splitting](screenshots/expensesplitting.png)
+
+### Expense Settlement
+![Expense Settlement](screenshots/expensesettlement.png)
+
+### Expenses
+![Expenses](screenshots/expenses.png)
+
 GitHub: https://github.com/NiharPandit01
